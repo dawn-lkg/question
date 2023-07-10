@@ -1,0 +1,42 @@
+.login {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card {
+    width: 500px;
+    height: 400px;
+    padding:0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .ant-card-body {
+        width: 100%;
+    }
+}
+
+.form {
+    width: 100%;
+}
+
+.input_item {
+    width: 100%;
+}
+.form_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px;
+    .left,.right>div{
+        color:#5093f9;
+    }
+    .right{
+        display: flex;
+    }
+}

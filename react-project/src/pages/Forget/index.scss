@@ -1,0 +1,26 @@
+.forget{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    padding: 20px ;
+    h1{
+        font-weight: 500;
+        font-size: 24px;
+    }
+}
+.form{
+    
+    ant-form-item-control-input-content{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .btnCode{
+            margin-left: 20px;
+            border-radius: 3px;
+        }
+    }
+}

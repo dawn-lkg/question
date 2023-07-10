@@ -1,0 +1,40 @@
+.registry{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 380px;
+    padding: 20px 20px;
+    p{
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+.form{
+
+    input{
+        border-radius: 3px;
+    }
+    .button{
+        width: 100%;
+        border-radius: 3px;
+    }
+    .ant-form-item-control-input-content{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .btnCode{
+            margin-left: 20px;
+            border-radius: 3px;
+        }
+    }
+    .form_footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+}
